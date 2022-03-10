@@ -1,4 +1,22 @@
 {
+  "name": "tailwindtest",
+  "version": "1.0.0",
+  "description": "Testing tailwind project",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craftsmandigital/tailwindtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craftsmandigital/tailwindtest/issues"
+  },
+  "homepage": "https://github.com/craftsmandigital/tailwindtest#readme",
   "devDependencies": {
     "tailwindcss": "^3.0.23"
   }
